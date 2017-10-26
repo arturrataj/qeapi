@@ -1,9 +1,9 @@
 # SDK in Java for IBM Q experience
 
-This is an SDK written in Java for communicating with the [IBM Q experience (QX)](https://quantumexperience.ng.bluemix.net/)
+This is an SDK written in Java for communicating with the [IBM Quantum experience (QX)](https://quantumexperience.ng.bluemix.net/)
 backends. I wrote it as I do not know Python and wanted to play a bit with the real device.
 The SDK implements the basic functionality of the [QISKit](https://github.com/QISKit/qiskit-sdk-py)
-Python client:
+API client:
 
 * login using a key;
 * get the list of devices;
@@ -43,7 +43,7 @@ Some jars from [Apache HTTP Client](https://hc.apache.org/httpcomponents-client-
 
 A custom version of [JSAP](http://www.martiansoftware.com/jsap/) and a part
 of the Hedgeelleth package -- these are both Open Source, but
-they do not have currently an online repository as one was not needed.
+they do not have currently an online repository.
 I'll add them somewhere one day. Ask me if you want the source.
 ```
 ../lib/jsap.jar
