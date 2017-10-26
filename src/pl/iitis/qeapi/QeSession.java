@@ -233,7 +233,7 @@ public class QeSession {
     public static void main(String[] args) throws Exception {
         System.out.println("logging in");
         QeSession qe = new QeSession(
-                "3f5d253ea43dfd7c356d3f49c0a6fc84212012733df57e5355ec67c74c195193238007d8792e33e8ea9683f6f5d5f81e0691bf581607693a1c42c448e0d04141");
+                "3f5d253ea43dfd7c356d3f4");
         System.out.println("obtaining a list of backends");
         SortedMap<String, QDevice> devices = qe.listDevices();
         QDeviceRef deviceRef = devices.get("ibmqx_qasm_simulator").ref();
