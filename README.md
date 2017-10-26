@@ -67,7 +67,7 @@ to build. To use the Bash CLI script, install it first (it just modifies ./bin/j
 ./install.sh
 ```
 
-## Example programmatic access
+### Example programmatic access
 
 ```java
 System.out.println("logging in");
@@ -96,7 +96,7 @@ System.out.println("received computation results");
 System.out.println(completedJob.toString());
 ```
 
-## Command line syntax
+### Command line syntax
 
 ```
   [-h|--help]
@@ -126,7 +126,7 @@ SOURCE:
         qasm source files, each is a separate task in the job to send
 ```
 
-## Example config file
+### Example config file
 
 ```
 token=33e8ea9683f6f5d5f81e069
