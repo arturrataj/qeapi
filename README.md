@@ -1,4 +1,4 @@
-# SDK in Java for IBM Q experience
+# SDK for IBM Q experience
 
 This is an API client written in Java for communicating with the [IBM Quantum experience (QX)](https://quantumexperience.ng.bluemix.net/)
 backends. I wrote it as I do not know Python and wanted to play a bit with the real device.
@@ -62,7 +62,7 @@ Type
 ```
 ant jar
 ```
-to build. To use the Bash CLI script, install it first (it just modifies ./bin/jqea):
+to build. After this, the directories `../lib` and `../HedgeellethUtilities` are no longer needed. To use the Bash CLI script, install it first (it just modifies ./bin/jqea):
 ```
 ./install.sh
 ```
