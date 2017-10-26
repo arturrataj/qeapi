@@ -1,6 +1,6 @@
-# Java SDK for IBM Q experience
+# SDK in Java for IBM Q experience
 
-This is a Java SDK for communicating with the [IBM Q experience (QX)](https://quantumexperience.ng.bluemix.net/)
+This is an SDK written in Java for communicating with the [IBM Q experience (QX)](https://quantumexperience.ng.bluemix.net/)
 backends. I wrote it as I do not know Python and wanted to play a bit with the real device.
 The SDK implements the basic functionality of the [QISKit](https://github.com/QISKit/qiskit-sdk-py)
 Python client:
