@@ -201,7 +201,7 @@ public class QeSession {
     public QJob receiveJob(QJob job, double initialSleep, double sleepIncrease, double maxTime)
             throws IOException {
         if(initialSleep + sleepIncrease*10 < 5.0)
-            throw new RuntimeException("pool periods too small");
+            throw new IOException("pool periods too small");
         Calendar start = Calendar.getInstance();
         double sleep = initialSleep;
         QJob serverJob;
