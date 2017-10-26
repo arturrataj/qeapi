@@ -186,8 +186,10 @@ public class QeSession {
                     response.error.status + " message=" + response.error.message);
     }
     /**
-     * Attempts periodically to receives a given job from the server,
-     * until its status is "COMPLETED".
+     * <p>Attempts periodically to receive resultats from a given job
+     * from the server, until its status is "COMPLETED".</p>
+     * 
+     * <p>This method requires that <code>initialSleep + sleepIncrease*10 &gt;= 5.0</code>.</p>
      * 
      * @param job a job to fetch from the server
      * @param initialSleep a period to wait before the first attempt, [seconds]
@@ -198,6 +200,8 @@ public class QeSession {
      */
     public QJob receiveJob(QJob job, double initialSleep, double sleepIncrease, double maxTime)
             throws IOException {
+        if(initialSleep + sleepIncrease*10 < 5.0)
+            throw new RuntimeException("pool periods too small");
         Calendar start = Calendar.getInstance();
         double sleep = initialSleep;
         QJob serverJob;
