@@ -14,9 +14,11 @@ There is also a simple CLI.
 
 ## Requirements
 
-You can download an archive with all the required libraries at once from
-[here](https://drive.google.com/open?id=0B_xKqtw0Rr_MWHFhM0I5MkZXOW8).
-Just unpack it together with the sources in the same directory.
+You will need Java 1.8, [Apache Ant](https://ant.apache.org) and a number of libraries. Optionally, you may open the project in [Netbeans](https://netbeans.org).
+
+For convenience, an archive with the required libraries is provided [here](https://drive.google.com/open?id=0B_xKqtw0Rr_MWHFhM0I5MkZXOW8). Just unpack it together with the sources in the same directory.
+
+### Libraries
 
 Some jars from [Apache HTTP Client](https://hc.apache.org/httpcomponents-client-ga/)
 ```
@@ -37,7 +39,7 @@ The HTTP client requires [Apache Commons Logging](https://commons.apache.org/pro
 ../lib/jackson/jackson-databind.jar
 ```
 
-### For CLI
+### Libraries for CLI
 
 The following libraries are required only by the class `pl.iitis.qeapi.Main`, which in turn is only needed for CLI.
 
