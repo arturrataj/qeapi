@@ -15,7 +15,10 @@ package pl.iitis.qeapi;
 import java.util.*;
 
 /**
- * A new task within a new job, specified in QAsm and to be sent to the server.
+ * A new task within a new job, specified in OpenQASM and to be sent to the
+ * server. As opposed to <code>Qasm</code>, it does not contain any data
+ * added by the server.
+ * 
  * @author Artur Rataj
  */
 public class NewQasm extends AbstractQasm {
