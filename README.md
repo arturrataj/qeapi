@@ -7,7 +7,7 @@ API client:
 
 * login using a key;
 * get the list of devices;
-* send a batch of OpenQASM programs to the chosen device;
+* send a batch of [OpenQASM](https://github.com/QISKit/openqasm) programs to the chosen device;
 * download the results.
 
 There is also a simple CLI.
