@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-JQEASSEMBLER_DIR=/home/art/projects/svn/testt/qeapi-master
-=======
-JQEASSEMBLER_DIR=/home/art/projects/svn/QeApi
->>>>>>> d54e434fb9af62869872ef3c9b345216b110b548
-java -Xss64M -jar $JQEASSEMBLER_DIR/dist/QeApi.jar $*
