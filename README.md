@@ -59,7 +59,7 @@ I'll add them somewhere one day. Ask me if you want the source.
 
 ## How to use
 
-This is a Netbeans 8 project, but the sources can be easily reused
+This is a Netbeans 8 project, but Netbeans is not required and the sources can be easily reused
 elsewhere.
 
 If you have differently names jars, you may either rename them or modify dependencies in the file `nbproject/project.properties`. Then type
