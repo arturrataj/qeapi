@@ -1,0 +1,2 @@
+JQEASSEMBLER_DIR=/home/art/projects/svn/testt/qeapi-master
+java -Xss64M -jar $JQEASSEMBLER_DIR/dist/QeApi.jar $*
