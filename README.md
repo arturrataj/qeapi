@@ -35,6 +35,9 @@ Some jars from [Apache HTTP Client](https://hc.apache.org/httpcomponents-client-
 ../lib/jackson/jackson-core.jar
 ../lib/jackson/jackson-databind.jar
 ```
+### For CLI
+
+The following libraries are required only by the class `pl.iitis.qeapi.Main`, which in turn is only needed for CLI.
 
 [Wildcard](https://github.com/EsotericSoftware/wildcard)
 ```
