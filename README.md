@@ -14,27 +14,28 @@ There is also a simple CLI.
 
 ## Requirements
 
-[Apache Commons Codec](https://commons.apache.org/proper/commons-codec/) and
-[Apache Commons Logging](https://commons.apache.org/proper/commons-logging/)
-```
-../lib/httpclient/commons-codec-1.9.jar
-../lib/httpclient/commons-logging-1.2.jar
-```
+You can download an archive with all the required libraries at once from
+[here](https://drive.google.com/open?id=0B_xKqtw0Rr_MVzR2U2dUYVFpcXc).
 
 Some jars from [Apache HTTP Client](https://hc.apache.org/httpcomponents-client-ga/)
 ```
-../lib/httpclient/fluent-hc-4.5.3.jar
-../lib/httpclient/httpclient-4.5.3.jar
-../lib/httpclient/httpclient-win-4.5.3.jar
-../lib/httpclient/httpcore-4.4.6.jar
+../lib/httpclient/fluent-hc.jar
+../lib/httpclient/httpclient.jar
+../lib/httpclient/httpclient-win.jar
+../lib/httpclient/httpcore.jar
+```
+The HTTP client requires [Apache Commons Logging](https://commons.apache.org/proper/commons-logging/)
+```
+../lib/commons-logging.jar
 ```
 
-[Jackson Project](https://github.com/FasterXML/jackson)
+[Jackson Project](https://github.com/FasterXML/jackson) for handling JSON
 ```
 ../lib/jackson/jackson-annotations.jar
 ../lib/jackson/jackson-core.jar
 ../lib/jackson/jackson-databind.jar
 ```
+
 ### For CLI
 
 The following libraries are required only by the class `pl.iitis.qeapi.Main`, which in turn is only needed for CLI.
@@ -53,15 +54,10 @@ I'll add them somewhere one day. Ask me if you want the source.
 ../HedgeellethUtilities/dist/HedgeellethUtilities.jar
 ```
 
-You can download an archive with all these jars at once from
-[here](https://drive.google.com/open?id=0B_xKqtw0Rr_MVzR2U2dUYVFpcXc).
-
 ## How to use
 
 This is a Netbeans 8 project, but the sources can be easily reused
-elsewhere.
-
-Type
+elsewhere. Type
 ```
 ant jar
 ```
