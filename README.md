@@ -16,6 +16,7 @@ There is also a simple CLI.
 
 You can download an archive with all the required libraries at once from
 [here](https://drive.google.com/open?id=0B_xKqtw0Rr_MWHFhM0I5MkZXOW8).
+Just unpack it together with the sources in the same directory.
 
 Some jars from [Apache HTTP Client](https://hc.apache.org/httpcomponents-client-ga/)
 ```
