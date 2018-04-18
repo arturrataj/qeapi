@@ -48,18 +48,19 @@ The following libraries are required only by the class `pl.iitis.qeapi.Main`, wh
 ../lib/wildcards.jar
 ```
 
-A custom version of [JSAP](http://www.martiansoftware.com/jsap/) and a part
-of the Hedgeelleth package -- these are both Open Source, but
-they do not have currently an online repository.
-I'll add them somewhere one day. Ask me if you want the source.
+A custom version of [JSAP](http://www.martiansoftware.com/jsap/). The standard JSAP will do with minimal changes.
 ```
 ../lib/jsap.jar
+```
+
+A [part](https://bitbucket.org/arataj/hedgeellethutilities) of the Hedgeelleth package.
+```
 ../HedgeellethUtilities/dist/HedgeellethUtilities.jar
 ```
 
 ## How to use
 
-This is a Netbeans 8 project, but the IDE is not required and the sources can be easily reused
+It is a Netbeans 8 project, but the IDE is not required and the sources can be easily reused
 elsewhere.
 
 If you have differently names jars, you may either rename them or modify dependencies in the file `nbproject/project.properties`. Then type
